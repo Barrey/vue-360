@@ -34,16 +34,6 @@
             </div>
             <!--/ 360 viewport -->
 
-            <!-- Fullscreen Button -->
-            <abbr title="Fullscreen Toggle">
-                <div class="v360-fullscreen-toggle text-center" @click="toggleFullScreen">
-                    <div class="v360-fullscreen-toggle-btn" :class="(buttonClass == 'dark') ? 'text-light' : 'text-dark'">
-                        <i :class="(!isFullScreen) ? 'fas fa-expand text-lg' : 'fas fa-compress text-lg'"></i>
-                    </div>
-                </div>
-            </abbr>
-            <!--/ Fullscreen Button -->
-
             <!-- Buttons Container -->
             <div id="v360-menu-btns" :class="buttonClass">
                 <div class="v360-navigate-btns">
